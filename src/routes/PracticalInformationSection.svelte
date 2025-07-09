@@ -8,13 +8,13 @@
 >
 	<div class="text-3xl font-bold">Practical information</div>
 
-	<TagBlock class="mt-5 md:mr-28" direction="right" extend={true} backgroundColor="north3">
+	<TagBlock class="mt-5 md:mr-28" direction="right" extend backgroundColor="north3">
 		<div class="flex w-screen max-w-xl justify-center md:justify-end text-black">
 			<div class="px-5 text-xl sm:pl-0"><span class="font-bold">When:</span> October 16th 2025</div>
 		</div>
 	</TagBlock>
 
-	<TagBlock class="mt-8" direction="left" extend={true} backgroundColor="north2">
+	<TagBlock class="mt-8" direction="left" extend backgroundColor="north2">
 		<div class="flex w-full">
 			<div class="flex flex-col items-center gap-2 md:flex-row">
 				<a target="_blank" rel="noreferrer" href="https://goo.gl/maps/PM1SP5jn8Z9M3LZa7"

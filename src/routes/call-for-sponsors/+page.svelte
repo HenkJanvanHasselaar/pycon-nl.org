@@ -69,7 +69,7 @@
     <div class="grid m-auto w-full max-w-6xl text-xl text-black place-items-center">
         <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
             <Fly offset={-10} duration={1000}>
-                <TagBlock class="float-left max-w-lg" direction="right" extend={true} backgroundColor="north3">
+                <TagBlock class="float-left max-w-lg" direction="right" extend backgroundColor="north3">
                     <p>We are excited to invite you to explore our sponsor packages for PyCon NL 2025, taking place on October 16, 2025.</p>
                     <p>Our packages are designed to offer you maximum visibility and engagement with our vibrant community of Python enthusiasts from all over the world.</p>
                 </TagBlock>
@@ -85,15 +85,15 @@
 
         <div class="mt-8 max-w-3xl">
             <div class="grid gap-4">
-                <TagBlock extend={true} direction="both" backgroundColor="north">
+                <TagBlock extend direction="both" backgroundColor="north">
                     <h3 class="font-bold text-xl">Gold Package</h3>
                     <p>The Gold Package provides substantial visibility with logo placements, mentions in email newsletters, and social media promotions and the opening speech. Gold sponsors will also have 6 conference passes, and will be able to network directly with attendees via their networking table.</p>
                 </TagBlock>
-                <TagBlock extend={true} direction="both" backgroundColor="north2">
+                <TagBlock extend direction="both" backgroundColor="north2">
                     <h3 class="font-bold text-xl">Silver Package</h3>
                     <p>Our Silver Package includes logo placements on the website and in promotional materials, as well as mentions in event communications. Silver sponsors will have 3 conference passes, connecting with industry professionals and enthusiasts.</p>
                 </TagBlock>
-                <TagBlock extend={true} direction="both" backgroundColor="north3">
+                <TagBlock extend direction="both" backgroundColor="north3">
                     <h3 class="font-bold text-xl">Bronze Package</h3>
                     <p>The Bronze Package offers basic visibility with logo placements on the website and in select promotional materials. Bronze sponsors will be featured in event programs or on specific event pages and have 2 complimentary conference passes.</p>
                 </TagBlock>

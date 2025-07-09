@@ -25,7 +25,7 @@
 				<TagBlock
 					class="float-left max-w-lg"
 					direction="right"
-					extend={true}
+					extend
 					backgroundColor="north3"
 				>
 					<p>
@@ -68,7 +68,7 @@
 					class="float-right max-w-lg mt-14"
 					direction="left"
 					backgroundColor="north2"
-					extend={true}
+					extend
 				>
 					<p class="font-bold">What to expect?</p>
 					<p>At <span class="font-bold">PyCon NL</span>, expect a lineup of captivating speakers who will delve
@@ -85,7 +85,7 @@
 				<TagBlock
 					class="float-left max-w-lg mt-14"
 					direction="right"
-					extend={true}
+					extend
 					backgroundColor="north3"
 				>
 					<p>But PyCon NL is not just about passive learning; it's about active participation and

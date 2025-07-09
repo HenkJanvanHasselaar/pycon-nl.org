@@ -27,7 +27,7 @@
 				<TagBlock
 					class="mt-2"
 					direction="right"
-					extend={true}
+					extend
 					backgroundColor="north3"
 				>
 					<div class="flex w-screen max-w-xl gap-5 items-center">
@@ -42,7 +42,7 @@
 				<TagBlock
 					class="mt-2"
 					direction={item.direction}
-					extend={true}
+					extend
 					backgroundColor={item.backgroundColor}
 				>
 					<div class="flex w-screen max-w-xl gap-5 items-center">
