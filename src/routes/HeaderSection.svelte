@@ -14,12 +14,12 @@
 	}
 
 	const tickets = { label: "Ticket Shop", link: "https://www.eventbrite.nl/e/1388174410029?aff=oddtdtcreator" };
-	const sponsors = { label: "Call for Sponsors", link: "/sponsors" };
-	const volunteers = { label: "Call for Volunteers", link: "/volunteers" };
-	const papers = { label: "Call for Papers", link: "/papers" };
+	const sponsors = { label: "Call for Sponsors", link: "/call-for-sponsors" };
+	const volunteers = { label: "Call for Volunteers", link: "/call-for-volunteers" };
+	const papers = { label: "Call for Papers", link: "/call-for-papers" };
 
 	const menusLeft: Menu[] = [tickets];
-	const menusRight: Menu[] = [sponsors, volunteers, papers];
+	const menusRight: Menu[] = [papers, sponsors, volunteers];
 
 	const menuStagger = 4;
 </script>
@@ -27,17 +27,14 @@
 <header class="flex-center relative w-full bg-shark header" id="header">
 	<Poster />
 	<div class="relative mt-3 w-full">
-		<TopNavSection></TopNavSection>
-
 		<div class="menu">
-
 			<div class="left">
 				<Fly offset={-10}>
 					<TagBlock direction="right" extend={true} backgroundColor="north3">
 						<div class="inline-flex text-lg text-white">
 							<div class="text-xl">
-								<span class="pr-4 text-ordina font-bold">Save the date <span class="whitespace-pre">16-10-2025</span></span>
-								<Countdown></Countdown>
+								<span class="pr-4 text-north2 font-bold">Save the date <span class="whitespace-pre">16-10-2025</span></span>
+								<Countdown />
 							</div>
 						</div>
 					</TagBlock>
