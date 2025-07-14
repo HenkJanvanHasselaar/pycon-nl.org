@@ -30,6 +30,12 @@
             logo: "/sponsors/ssg.jpg",
             url: "https://www.soprasteria.nl",
         },
+        {
+            tier: "silver",
+            name: "Qstars IT",
+            logo: "/sponsors/qstars.png",
+            url: "https://www.qstars.nl",
+        }
     ];
 
     const byTier: Partial<Record<Tier, Sponsor[]>> = groupBy(sponsors, s => s.tier);
